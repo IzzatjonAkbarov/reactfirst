@@ -2,8 +2,6 @@
 @import "tailwindcss";
 
 * {
-  /* padding: 0px;
-  margin: 0px; */
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
@@ -29,7 +27,7 @@ ul {
   width: 95%;
   margin: auto;
 }
-@media (min-width: 1920px) {
+@media (min-width: 1940px) {
   .container1 {
     width: 1920px;
     margin: auto;

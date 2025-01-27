@@ -129,7 +129,7 @@ const Header = () => {
                 <img src={mail} alt="" />
                 youremail@mailbox.ru
               </a>
-              <button className="bg-[#ff7a1b] text-white px-10 py-3 rounded-md">
+              <button className="bg-[#ff7a1b] text-white px-10 py-3 rounded-md hover:bg-white hover:text-[#ff7a1b] transition-all">
                 Заказать звонок
               </button>
             </div>
@@ -140,33 +140,33 @@ const Header = () => {
         <div className="container1 max-[738px]:py-4">
           <ul className="flex items-center justify-between">
             <li className="max-[400px]:w-[100%]">
-              <button className="p-3 bg-[#ffd634] flex items-center gap-1.5 max-[400px]:w-[100%]">
+              <button className="p-3 hover:bg-[#ffd634] bg-[#ffd634] flex items-center gap-1.5 max-[400px]:w-[100%] ">
                 <img src={menubar} alt="" />
                 Каталог товаров
               </button>
             </li>
             <li className="max-[400px]:hidden">
-              <button className="p-3 bg-[#fff] flex items-center gap-1.5 justify-center text-center">
+              <button className="p-3 bg-[#fff] hover:bg-[#ccc] transition-all rounded flex items-center gap-1.5 justify-center text-center">
                 О компании
               </button>
             </li>
             <li className="max-[500px]:hidden">
-              <button className="p-3 bg-[#fff] flex items-center gap-1.5 justify-center text-center">
+              <button className="p-3 bg-[#fff] hover:bg-[#ccc] transition-all rounded flex items-center gap-1.5 justify-center text-center">
                 Отзывы
               </button>
             </li>
             <li className="max-[600px]:hidden">
-              <button className="p-3 bg-[#fff] flex items-center gap-1.5 justify-center text-center">
+              <button className="p-3 bg-[#fff] hover:bg-[#ccc] transition-all rounded flex items-center gap-1.5 justify-center text-center">
                 Наши работы
               </button>
             </li>
             <li className="max-[850px]:hidden">
-              <button className="p-3 bg-[#fff] flex items-center gap-1.5 justify-center text-center">
+              <button className="p-3 bg-[#fff] hover:bg-[#ccc] transition-all rounded flex items-center gap-1.5 justify-center text-center">
                 Доставка
               </button>
             </li>
             <li className="max-[950px]:hidden">
-              <button className="p-3 bg-[#fff] flex items-center gap-1.5 justify-center text-center">
+              <button className="p-3 bg-[#fff] hover:bg-[#ccc] transition-all rounded flex items-center gap-1.5 justify-center text-center">
                 Контакты
               </button>
             </li>
